@@ -1,0 +1,37 @@
+# Hugo build output
+# (GitHub Action will build this when deploying to GitHub Pages)
+public/
+
+# Hugo lock file (created during builds)
+.hugo_build.lock
+
+# Hugo resource cache
+resources/_gen/
+
+# OS files
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+
+# Editor / IDE
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Local env overrides (if you add any later)
+.env
+.env.local
+.env.*.local
+
+# Optional: uncomment if you add Node/npm for assets
+# node_modules/
+# npm-debug.log*
+# yarn-debug.log*
+# yarn-error.log*
