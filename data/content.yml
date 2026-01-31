@@ -21,11 +21,11 @@ about:
   enable: true
   image: 'images/me-profile-sm.jpg'
   title: 'THIS IS ME'
-  content: Hi, thanks for stopping by. If you have any questions feel free to reach out on [LinkedIn, Github, or email](#contact) any time!
+  content: Hi, thanks for stopping by. If you would like a copy of my resume / CV let's connect on [LinkedIn, Github, or email](#contact) any time!
   button:
-    enable: true
+    enable: false
     label: 'DOWNLOAD MY RESUME'
-    link: # TODO: Add resume link
+    link: # TODO: Add resume link, preferrably behind some kind of captcha first if possible.
     icon: 'fa-download'
 
 ########################### Experience ###########################
