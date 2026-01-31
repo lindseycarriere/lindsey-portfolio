@@ -1,0 +1,94 @@
+########################## hero area ##########################
+hero:
+  title: "I'm Lindsey Carriere"
+
+  # animated text loop
+  occupations:
+    - 'Staff Software Developer'
+    - 'AWS & GCP Solutions Architect'
+    - 'AI Augmented SDLC Pragmatist'
+    - 'Secure API Design & Implementation Specialist'
+    - 'Payments & FinTech Experienced'
+    - 'Distributed Systems Integrations Expert'
+
+  # hero background image
+  bg_image: 'images/background.jpg'
+  # optional mobile breakpoint background
+  mobile_bg_image: 'images/dog-small.jpg'
+
+########################### About ###########################
+about:
+  enable: true
+  image: 'images/me-profile-sm.jpg'
+  title: 'THIS IS ME'
+  content: Hi, thanks for stopping by. If you have any questions feel free to reach out on [LinkedIn, Github, or email](#contact) any time!
+  button:
+    enable: true
+    label: 'DOWNLOAD MY RESUME'
+    link: # TODO: Add resume link
+    icon: 'fa-download'
+
+########################### Experience ###########################
+experience:
+  enable: true
+  title: 'EXPERIENCE'
+  experience_list:
+    - name: Senior Staff Software Developer
+      company: Benevity
+      duration: 'Mar 2021 - Dec 2025'
+      content: TODO
+
+    - name: Software Developer
+      company: Guest-Tek
+      duration: 'Nov 2005 - Mar 2021'
+      content: TODO
+
+########################### Skill ###########################
+skill:
+  enable: true
+  title: 'PROFICIENCIES'
+  showpercent: false
+  skill_list:
+    - name: 'Back-End Development'
+      percentage: '95%'
+
+    - name: 'Front-End Development'
+      percentage: '45%'
+
+    - name: 'Board Games'
+      percentage: '100%'
+
+######################### funfacts #############################3
+funfacts:
+  enable: true
+  funfacts_list:
+    - name: 'YEARS EXPERIENCE'
+      image: 'images/icons/web-development.png'
+      count: '21'
+
+    - name: 'CLOUD CERTIFICATIONS'
+      image: 'images/icons/project.png'
+      count: '2'
+
+    - name: 'CUPS PER DAY'
+      image: 'images/icons/coffee.png'
+      count: '3'
+
+############################# portfolio ################################
+portfolio:
+  enable: false
+  title: 'PORTFOLIO'
+  portfolio_list:
+    - name: Hugo
+      image: 'images/stock-photos/hugo.png'
+      url: https://gohugo.io
+      description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+
+    - name: Hugo Themes
+      image: 'images/stock-photos/hugothemes.png'
+      url: https://gohugo.io
+      description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+
+    - name: Just A Design
+      image: 'images/stock-photos/design.png'
+      description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.

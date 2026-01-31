@@ -15,6 +15,7 @@ Thumbs.db
 ehthumbs.db
 
 # Editor / IDE
+.vscode/
 .idea/
 *.swp
 *.swo
