@@ -2,6 +2,12 @@
   <meta charset="utf-8" />
   <title>{{ .Title }}</title>
 
+  {{ "<!-- Base path for JavaScript -->" | safeHTML }}
+  <script>
+    window.hugoBaseURL = "{{ .Site.BaseURL }}";
+    window.hugoBasePath = "{{ (urls.Parse .Site.BaseURL).Path | default "/" }}";
+  </script>
+
   {{ "<!-- mobile responsive meta -->" | safeHTML }}
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta

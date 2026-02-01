@@ -147,17 +147,24 @@
     }
   });
 
+  // Use Hugo's base path for assets (injected via head.html)
+  var basePath = window.hugoBasePath || '/';
+  // Ensure basePath ends with /
+  if (!basePath.endsWith('/')) basePath += '/';
+
   function toggleLogoImg(id) {
     var img = document.getElementById(id).src;
     if (img.indexOf('logo-dark.svg') != -1) {
-      document.getElementById(id).src = '/images/logo.svg';
+      document.getElementById(id).src = basePath + 'images/logo.svg';
     } else {
-      document.getElementById(id).src = '/images/logo-dark.svg';
+      document.getElementById(id).src = basePath + 'images/logo-dark.svg';
     }
   }
 
   // Styling Menu on Scroll
-  if (window.location.pathname === '/') {
+  // Check if we're on the home page (works with subpath deployments)
+  var isHomePage = window.location.pathname === basePath || window.location.pathname === basePath.slice(0, -1);
+  if (isHomePage) {
     $('.about-me').waypoint({
       handler: function (direction) {
         // Changing Menu background after leaving Header Section
