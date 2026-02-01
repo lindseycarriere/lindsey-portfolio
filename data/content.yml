@@ -5,11 +5,11 @@ hero:
   # animated text loop
   occupations:
     - 'Staff Software Developer'
-    - 'AWS & GCP Solutions Architect'
+    - 'Multi-Cloud Architect'
     - 'AI Augmented SDLC Pragmatist'
-    - 'Secure API Design & Implementation Specialist'
+    - 'Secure API Specialist'
     - 'Payments & FinTech Experienced'
-    - 'Distributed Systems Integrations Expert'
+    - 'Distributed Systems Expert'
 
   # hero background image
   bg_image: 'images/background.jpg'
@@ -20,7 +20,7 @@ hero:
 about:
   enable: true
   image: 'images/me-profile-sm.jpg'
-  title: 'THIS IS ME'
+  title: 'Lindsey Carriere, B.Sc.'
   content: Hi, thanks for stopping by. If you would like a copy of my resume / CV let's connect on [LinkedIn, Github, or email](#contact) any time!
   button:
     enable: false
@@ -35,13 +35,46 @@ experience:
   experience_list:
     - name: Senior Staff Software Developer
       company: Benevity
-      duration: 'Mar 2021 - Dec 2025'
+      duration: 'Jun 2024 - Dec 2025'
       content: TODO
 
-    - name: Software Developer
-      company: Guest-Tek
-      duration: 'Nov 2005 - Mar 2021'
+    - name: Staff Software Developer
+      company: Benevity
+      duration: 'Apr 2022 - Jun 2024'
       content: TODO
+
+    - name: Senior Software Developer
+      company: Benevity
+      duration: 'Mar 2021 - Apr 2022'
+      content: TODO
+
+    - name: Solutions Architect
+      company: Guest-Tek
+      duration: 'Jan 2020 - Mar 2021'
+      content: TODO
+
+    - name: Lead Software Developer
+      company: Guest-Tek
+      duration: 'Dec 2011 - Jan 2020'
+      content: TODO
+
+    - name: Intermediate Software Developer
+      company: Guest-Tek
+      duration: 'May 2007 - Dec 2011'
+      content: TODO
+
+    - name: Junior Software Developer
+      company: Guest-Tek
+      duration: 'Nov 2005 - May 2007'
+      content: TODO
+
+    - name: Help Desk Support Analyst
+      company: Guest-Tek
+      duration: 'Aug 2005 - Nov 2005'
+      content: |
+        - Supporting hotel guests and staff experiencing network connectivity issues.
+        - Remotely accessing linux servers, supporting networking hardware, linux firewalls and java applications. 
+        - Received outstanding performance award in the first month of employment.
 
 ########################### Skill ###########################
 skill:
@@ -63,16 +96,20 @@ funfacts:
   enable: true
   funfacts_list:
     - name: 'YEARS EXPERIENCE'
-      image: 'images/icons/web-development.png'
+      image: 'images/icons/experience.png'
       count: '21'
 
     - name: 'CLOUD CERTIFICATIONS'
-      image: 'images/icons/project.png'
+      image: 'images/icons/cloud-circuit.png'
       count: '2'
+
+    - name: 'PATENT CREDITS'
+      image: 'images/icons/patent.png'
+      count: '5'
 
     - name: 'CUPS PER DAY'
       image: 'images/icons/coffee.png'
-      count: '3'
+      count: '2'
 
 ############################# portfolio ################################
 portfolio:
