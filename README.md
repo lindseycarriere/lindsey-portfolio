@@ -41,5 +41,7 @@ Then open **http://localhost:1313** in your browser. The site reloads when you c
 
 ## CICD
 
-TODO
+The site is built and deployed to **GitHub Pages** on every push to `main` branch via [GitHub Actions](.github/workflows/hugo.yaml) (see [Hugo: Host on GitHub Pages](https://gohugo.io/host-and-deploy/host-on-github-pages/)).
+
+**One-time setup:** In your repo on GitHub, go to **Settings → Pages**. Set **Source** to **GitHub Actions**. After the first push to `main`, the workflow will run and your site will be available at either `https://<username>.github.io/<repo>/` or your user/org Pages URL.
 

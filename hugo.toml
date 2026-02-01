@@ -1,8 +1,9 @@
 # Hugo Config 
 #  port-hugo theme uses: params (plugins, preloader, social, logos, etc.), menu.main
-#  Content for the single-page layout comes from data/content.yml (not the content/ dir).
+#  Content for the single-page layout comes from data/content.yml
 
 baseURL = "https://example.org/"
+
 languageCode = "en-us"
 title = "Portfolio of Lindsey Carriere"
 theme = "port-hugo"
@@ -98,3 +99,10 @@ link = "mailto:carriere+portfolio@gmail.com"
 # [[params.social]]
 # icon = "fab fa-medium"
 # link = "https://medium.com/@gusburton"
+
+### Other Hugo Configurations ###
+
+# Image cache dir for GitHub Actions (see https://gohugo.io/host-and-deploy/host-on-github-pages/)
+[caches]
+  [caches.images]
+    dir = ":cacheDir/images"
