@@ -76,6 +76,14 @@ experience:
         - Remotely accessing linux servers, supporting networking hardware, linux firewalls and java applications. 
         - Received outstanding performance award in the first month of employment.
 
+    - name: Bachelors of Science, CIS
+      company: DeVry Institute of Technology
+      duration: '2001 - 2004'
+      content: |
+        - Majored in Computer Information Systems
+        - Graduated with honours, 3.8 GPA
+        - Student Resource Center Administrator, Faculty Assistance and Tutoring
+
 ########################### Skill ###########################
 skill:
   enable: true
@@ -83,13 +91,28 @@ skill:
   showpercent: false
   skill_list:
     - name: 'Back-End Development'
-      percentage: '95%'
+      percentage: '90%'
 
     - name: 'Front-End Development'
-      percentage: '45%'
+      percentage: '40%'
+
+    - name: 'System Architecture'
+      percentage: '75%'
+
+    - name: 'APIs & Authentication'
+      percentage: '90%'
+
+    - name: 'DevOps'
+      percentage: '60%'
 
     - name: 'Board Games'
-      percentage: '100%'
+      percentage: '98%'
+
+    - name: 'Golf'
+      percentage: '10%'
+
+    - name: 'Curling'
+      percentage: '85%'
 
 ######################### funfacts #############################3
 funfacts:
@@ -105,11 +128,15 @@ funfacts:
 
     - name: 'PATENT CREDITS'
       image: 'images/icons/patent.png'
-      count: '5'
+      count: '8'
 
     - name: 'CUPS PER DAY'
       image: 'images/icons/coffee.png'
       count: '2'
+
+    - name: 'AUSTRALIAN LABRADOODLES'
+      image: 'images/icons/labradoodle.png'
+      count: '1'
 
 ############################# portfolio ################################
 portfolio:
