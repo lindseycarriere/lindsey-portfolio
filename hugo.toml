@@ -67,7 +67,6 @@ weight = 4
 ### Default Params ###
 
 [params]
-copyright = "Powered by Hugo | Theme: port-hugo | Lindsey Carriere &copy;"
 # Meta data
 description = "Portfolio of Lindsey Carriere"
 author = "Lindsey Carriere"
@@ -75,12 +74,13 @@ favicon = "images/favicon.png"
 google_analytics = "G-ABCDEFG123" # TODO: Add Google Analytics
 logo_light = "images/logo.svg"
 logo_dark = "images/logo-dark.svg"
+contact_title = "CONTACT"
+copyright = "Powered by Hugo based on the port-hugo theme | Lindsey Carriere &copy;"
 
 # Preloader
 [params.preloader]
 enable = true
 preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
-
 
 ### Social ###
 

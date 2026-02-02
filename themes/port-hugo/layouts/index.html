@@ -92,6 +92,9 @@
 {{ if .Site.Data.content.funfacts.enable }} {{ with .Site.Data.content.funfacts
 }}
 <section class="funfacts" id="funfacts">
+  <div class="col-12 text-center">
+    <h2>{{ .title }}</h2>
+  </div>
   <div class="fun-facts container pt-5">
     {{ range .funfacts_list }}
     <div class="fun-fact-holder">

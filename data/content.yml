@@ -14,7 +14,7 @@ hero:
   # hero background image
   bg_image: 'images/background.jpg'
   # optional mobile breakpoint background
-  mobile_bg_image: 'images/dog-small.jpg'
+  mobile_bg_image: 'images/me-home-sm.jpg'
 
 ########################### About ###########################
 about:
@@ -97,13 +97,16 @@ skill:
       percentage: '40%'
 
     - name: 'System Architecture'
-      percentage: '75%'
+      percentage: '80%'
 
     - name: 'APIs & Authentication'
       percentage: '90%'
 
     - name: 'DevOps'
       percentage: '60%'
+
+    - name: 'Mentoring & Growth Mindset'
+      percentage: '90%'
 
     - name: 'Board Games'
       percentage: '98%'
@@ -117,6 +120,7 @@ skill:
 ######################### funfacts #############################3
 funfacts:
   enable: true
+  title: FUN FACTS
   funfacts_list:
     - name: 'YEARS EXPERIENCE'
       image: 'images/icons/experience.png'
