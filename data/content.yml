@@ -21,7 +21,12 @@ about:
   enable: true
   image: 'images/me-profile-sm.jpg'
   title: 'Lindsey Carriere, B.Sc.'
-  content: Hi, thanks for stopping by. If you would like a copy of my resume / CV let's connect on [LinkedIn, Github, or email](#contact) any time!
+  content: |
+    With over 20 years of experience and multiple AWS certifications, I specialize in the design and delivery of scalable, cloud-native ecosystems. I thrive at the intersection of executive strategy and technical execution, having led global engineering teams through complex on-premises to cloud migrations and microservice modernizations. My focus is on building secure, performant, and observable systems using AI-augmented development workflows to accelerate delivery without sacrificing quality.
+
+    Beyond the architecture and code, I am a hands-on mentor dedicated to fostering growth mindsets and building high-performing teams. Whether I'm refining technical epics, optimizing CI/CD pipelines, or contributing to patent-pending innovations, my goal is to deliver incremental value through well-architected patterns.
+
+    If you would like a copy of my resume / CV, let's connect on [LinkedIn, GitHub, or email](#contact) any time!
   button:
     enable: false
     label: 'DOWNLOAD MY RESUME'
@@ -36,44 +41,88 @@ experience:
     - name: Senior Staff Software Developer
       company: Benevity
       duration: 'Jun 2024 - Dec 2025'
-      content: TODO
+      content: |
+        - Achieved an 80% boost in API delivery velocity by architecting a new multi-cloud API platform using Apigee, partnering with principal architects and multiple engineering teams. Established domain-driven shared infrastructure and golden CI/CD pipelines to streamline deployments across the organization in AWS & GCP.
+        - Accelerated microservice implementations from months to days by developing self-serve service templates and automated REST specification tooling, significantly reducing technical friction and manual governance for engineering teams, integrated natively with the new API platform.
+        - Secured a multi-million dollar SR&ED claim by contributing technical justifications regarding innovations to our payment processing, API, and financial disbursements systems.
+        - Increased API Platform adoption to 6+ product teams across 4+ business domains by publishing high quality user and architectural documentation, architecture decision records (ADRs) and AI custom rulesets for Cursor.
+        - Modernized deployment pipelines from Jenkins to modular GitHub Actions, significantly improving reusability, maintainability, operational efficiency and developer experience.
+        - Optimized developer efficiency by mentoring developers when refining epics and technical work breakdown, focusing on incremental value delivery and reducing over-engineering.
+        - Enhanced adherence to architectural direction and SDLC processes by onboarding internal and 2 external contracting teams.
+        - Recognized for being a strategic technical leader able to switch between high level architecture while conveying direction through tactical story refinement and code reviews, completing 90%+ of epics on time.
+        - Significantly improved service discoverability and developer experience by technically directing a contractor team creating an internal developer portal with Backstage, integrating its scaffolding with service templates.
+        - Implemented a next-generation API platform dashboard in Google Cloud, expediting anomaly triage in time for peak Giving Tuesday traffic levels.
+
 
     - name: Staff Software Developer
       company: Benevity
       duration: 'Apr 2022 - Jun 2024'
-      content: TODO
+      content: |
+        - Reduced hundreds of monthly hours of manual effort by delivering the first fully automated merchant transaction reconciliation system. Led the implementation using serverless patterns (AWS Step Functions, Lambda, and DynamoDB single-table design) integrated with the Oracle ERP reconciliation system.
+        - Achieved a 100% reduction in payment transaction categorization errors and improved invoicing accuracy by delivering a complex subscription management initiative spanning multiple systems ahead of schedule.
+        - Led the implementation of LaunchDarkly feature toggles in payments subsystems across hundreds of tenants in multiple deployment environments, enabling the safe and seamless integration of alternative payment processors and boosting resiliency.
+        - Led the design and delivery of a modern payment API suite that integrated Alaya's 90+ international clients into Benevity's core services. This secure, scalable architecture enabled the modernization of 5 legacy payment components in Benevity's mission-critical products, improving maintainability through reusability.
+        - Improved technical designs by presenting and contributing to cross-functional architecture reviews to validate and identify cross-domain dependencies, non-functional requirements (NFRs) and mitigating technical debt.
+        - Facilitated the adoption of organization-wide API standards, reducing risk of technical debt and rework.
+        - Streamlined cross-team knowledge transfers by coaching engineers on C4 modelling techniques.
+        - Reduced incident response time by operationalizing self-serve on-call playbooks and reviewing postmortems.
+        - Achieved individual performance tier (3 of 3) during annual review for strong cross-functional collaboration, accountability and the ability to break down complex problems into manageable implementation phases.
 
     - name: Senior Software Developer
       company: Benevity
       duration: 'Mar 2021 - Apr 2022'
-      content: TODO
+      content: |
+        - Delivered 5+ OAuth2 secured API products for 20+ internal and external clients, often leading junior developers through the agile SDLC process, deployment and production operations of APIs using OpenAPI.
+        - Engineered a bulk donation ingestion REST API using AWS serverless and event-driven architecture. Optimized for highly performant, asynchronous processing of 100k+ microdonations in minutes, while safely integrating with a legacy Java monolith using API design-first principles, circuit breaking patterns and rate limiting.
+        - Optimized observability by building dashboards and alerting systems. Leveraged OpenSearch, CloudWatch, NewRelic and PagerDuty to reduce MTTR for critical API services.
+        - Increased system reliability by responding to critical technical incidents involving legacy systems and APIs.
+        - Achieved 100% compliance against internal SLAs for high and critical security vulnerabilities using Snyk tooling.
 
     - name: Solutions Architect
       company: Guest-Tek
       duration: 'Jan 2020 - Mar 2021'
-      content: TODO
+      content: |
+        - Led a cross-functional team of 3 application developers to deliver Guest-Tek's first API Gateway using AWS cloud-native serverless components like Lambda to expose functionality from many distributed backend applications running in cloud & on-premises using a design-first REST API with OpenAPI specifications.
+        - Improved infrastructure provisioning efficiency and quality by pioneering infrastructure-as-code initiatives in various projects via Terraform, Serverless Framework and AWS CloudFormation.
+        - Created API integrations to backend systems and exposed publish/subscribe asynchronous event capabilities leveraging WebSockets, Event Bridge and DynamoDB, increasing business capability exposure.
+        - Increased adoption of modern CI/CD approaches by creating automated Bitbucket pipelines to promote applications to multiple release stages, boosting delivery speed and consistency by 90% over existing scripts.
 
     - name: Lead Software Developer
       company: Guest-Tek
       duration: 'Dec 2011 - Jan 2020'
-      content: TODO
+      content: |
+        - Mentored 3 developers, responsible for meeting multiple product release schedules affecting deployments to 1000 clients and 200,000+ set-top boxes globally.
+        - Resolved up to 3 top-tier escalations per week to vendors like Samsung and LG TV divisions with a focus on improving overall system reliability.
+        - Developed a content delivery network (CDN) using a Docker-based Spring Boot microservice into AWS ECS capable of sending 2+ terabytes of monthly content to 400 clients globally leveraging CloudFront and secure signed URLs, reducing monthly manual effort by hundreds of hours.
+        - Enabled guest access to their own content streaming services by collaboratively engineering a patented proxy service for secure guest access to Chromecast devices, installed in 10,000+ rooms over 50+ hotels.
+        - Developed a content streaming appliance that was 95% cheaper than the existing vendor appliance, including a REST API to integrate with existing legacy applications.
+        - Received inaugural Guest-Tek developer top performance award in January 2014.
+        - Contributed to 8 patents issued in the US and Canada.
 
     - name: Intermediate Software Developer
       company: Guest-Tek
       duration: 'May 2007 - Dec 2011'
-      content: TODO
+      content: |
+        - Developed secure REST APIs using Java and Apache Tomcat to enhance integrations between central servers and on-premises hotel systems.
+        - Engineered reporting systems that managed complex royalty agreements for thousands of daily transactions across dozens of clients and major Hollywood studios.
+        - Scaled a satellite-based content delivery system from dozens to hundreds of global clients while maintaining strict studio-governed security and encryption controls.
+        - Prototyped a Spring and Hibernate implementation for a new television interface product that directly contributed to securing a contract valued at over $60 million.
+        - Improved on-premises gateway applications by creating highly available and persistent messaging integrations between local and central servers using Java and ActiveMQ.
 
     - name: Junior Software Developer
       company: Guest-Tek
       duration: 'Nov 2005 - May 2007'
-      content: TODO
+      content: |
+        - Developed the internal support case management system using PHP, PostgreSQL, Apache (LAMP) stack. 
+        - Collaborated closely with support team management to derive features and functional requirements.
+        - Introduced to the full software development, QA, release and support lifecycle.
 
     - name: Help Desk Support Analyst
       company: Guest-Tek
       duration: 'Aug 2005 - Nov 2005'
       content: |
         - Supporting hotel guests and staff experiencing network connectivity issues.
-        - Remotely accessing linux servers, supporting networking hardware, linux firewalls and java applications. 
+        - Remotely accessing Linux servers, supporting networking hardware, Linux firewalls and Java applications. 
         - Received outstanding performance award in the first month of employment.
 
     - name: Bachelors of Science, CIS
@@ -94,16 +143,37 @@ skill:
       percentage: '90%'
 
     - name: 'Front-End Development'
-      percentage: '40%'
+      percentage: '35%'
 
     - name: 'System Architecture'
       percentage: '80%'
 
-    - name: 'APIs & Authentication'
+    - name: 'AI Augmented SDLC'
+      percentage: '65%'
+
+    - name: 'Amazon Web Services (AWS)'
       percentage: '90%'
+
+    - name: 'Google Cloud Platform (GCP)'
+      percentage: '30%'
+
+    - name: 'Infrastructure as Code (Terraform)'
+      percentage: '75%'
+
+    - name: 'APIs & Authentication (OAuth2, OpenAPI, etc.)'
+      percentage: '90%'
+
+    - name: 'Event-Driven Architecture'
+      percentage: '85%'
+
+    - name: 'Serverless Computing'
+      percentage: '80%'
 
     - name: 'DevOps'
       percentage: '60%'
+
+    - name: 'Technical Leadership & Roadmapping'
+      percentage: '90%'
 
     - name: 'Mentoring & Growth Mindset'
       percentage: '90%'
@@ -138,7 +208,7 @@ funfacts:
       image: 'images/icons/coffee.png'
       count: '2'
 
-    - name: 'AUSTRALIAN LABRADOODLES'
+    - name: 'AUSTRALIAN LABRADOODLE'
       image: 'images/icons/labradoodle.png'
       count: '1'
 
