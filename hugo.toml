@@ -49,19 +49,24 @@ url = "#about"
 weight = 2
 
 [[menu.main]]
+name = "Experience"
+url = "#experience"
+weight = 3
+
+[[menu.main]]
 name = "Fun Facts"
 url = "#funfacts"
-weight = 3
+weight = 4
 
 [[menu.main]]
 name = "Contact"
 url = "#contact"
-weight = 4
+weight = 5
 
 # [[menu.main]]
 # name = "Portfolio"
 # url = "#portfolio"
-# weight = 5
+# weight = 6
 
 
 ### Default Params ###
@@ -71,7 +76,7 @@ weight = 4
 description = "Portfolio of Lindsey Carriere"
 author = "Lindsey Carriere"
 favicon = "images/favicon.png"
-google_analytics = "G-ABCDEFG123" # TODO: Add Google Analytics
+google_analytics = "G-H0HDE0B9CQ"
 logo_light = "images/logo.svg"
 logo_dark = "images/logo-dark.svg"
 contact_title = "CONTACT"
