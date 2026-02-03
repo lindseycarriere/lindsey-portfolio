@@ -2,8 +2,6 @@
 #  port-hugo theme uses: params (plugins, preloader, social, logos, etc.), menu.main
 #  Content for the single-page layout comes from data/content.yml
 
-baseURL = "https://example.org/"
-
 languageCode = "en-us"
 title = "Portfolio of Lindsey Carriere"
 theme = "port-hugo"

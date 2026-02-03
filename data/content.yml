@@ -22,7 +22,7 @@ about:
   image: 'images/me-profile-sm.jpg'
   title: 'Lindsey Carriere, B.Sc.'
   content: |
-    With over 20 years of experience and multiple AWS certifications, I specialize in the design and delivery of scalable, cloud-native ecosystems. I thrive at the intersection of executive strategy and technical execution, having led global engineering teams through complex on-premises to cloud migrations and microservice modernizations. My focus is on building secure, performant, and observable systems using AI-augmented development workflows to accelerate delivery without sacrificing quality.
+    With over 20 years of experience in software engineering, architecture and multiple AWS certifications, I specialize in the design and delivery of scalable, cloud-native ecosystems. I thrive at the intersection of executive strategy and technical execution, having led global engineering teams through complex on-premises to cloud migrations and microservice modernizations. I love building secure, performant, and observable systems; especially now using AI-augmented development workflows to accelerate delivery without sacrificing quality.
 
     Beyond the architecture and code, I am a hands-on mentor dedicated to fostering growth mindsets and building high-performing teams. Whether I'm refining technical epics, optimizing CI/CD pipelines, or contributing to patent-pending innovations, my goal is to deliver incremental value through well-architected patterns.
 
@@ -30,7 +30,7 @@ about:
   button:
     enable: false
     label: 'DOWNLOAD MY RESUME'
-    link: # TODO: Add resume link, preferrably behind some kind of captcha first if possible.
+    link: # Consider adding a resume link, preferrably behind some kind of captcha first.
     icon: 'fa-download'
 
 ########################### Experience ###########################
@@ -143,24 +143,36 @@ skill:
       percentage: '90%'
 
     - name: 'Front-End Development'
-      percentage: '35%'
+      percentage: '40%'
 
     - name: 'System Architecture'
-      percentage: '80%'
+      percentage: '90%'
 
     - name: 'AI Augmented SDLC'
       percentage: '65%'
 
     - name: 'Amazon Web Services (AWS)'
-      percentage: '90%'
+      percentage: '95%'
 
     - name: 'Google Cloud Platform (GCP)'
       percentage: '30%'
 
+    - name: 'Java / Spring / Spring Boot'
+      percentage: '95%'
+
+    - name: 'NodeJS / Typescript'
+      percentage: '75%'
+
+    - name: 'Python'
+      percentage: '65%'
+
+    - name: 'Ruby'
+      percentage: '20%'
+
     - name: 'Infrastructure as Code (Terraform)'
       percentage: '75%'
 
-    - name: 'APIs & Authentication (OAuth2, OpenAPI, etc.)'
+    - name: 'API & Auth Development'
       percentage: '90%'
 
     - name: 'Event-Driven Architecture'
@@ -169,8 +181,8 @@ skill:
     - name: 'Serverless Computing'
       percentage: '80%'
 
-    - name: 'DevOps'
-      percentage: '60%'
+    - name: 'CICD & Docker Implemention'
+      percentage: '80%'
 
     - name: 'Technical Leadership & Roadmapping'
       percentage: '90%'
