@@ -143,7 +143,7 @@ var Grid = (function () {
     transEndEventName = transEndEventNames[Modernizr.prefixed('transition')],
     support = Modernizr.csstransitions,
     settings = {
-      minHeight: 500,
+      minHeight: 800,
       speed: 350,
       easing: 'ease'
     };
