@@ -226,19 +226,23 @@ funfacts:
 
 ############################# portfolio ################################
 portfolio:
-  enable: false
-  title: 'PORTFOLIO'
+  enable: true
+  title: 'PORTFOLIO PROJECTS'
   portfolio_list:
-    - name: Hugo
-      image: 'images/stock-photos/hugo.png'
-      url: https://gohugo.io
-      description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+    - name: GoLedger
+      image: 'images/stock-photos/goledger-icon.png'
+      url: https://github.com/lindseycarriere/goledger
+      description: |
+        A high-performance Golang financial ledger backend service I built using Cursor 
+        and spec-driven development to get hands on experience with Golang and gRPC.
 
-    - name: Hugo Themes
-      image: 'images/stock-photos/hugothemes.png'
-      url: https://gohugo.io
-      description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+        This project demonstrate financial-system fundamentals like ACID-compliant transfers, 
+        idempotency, and safe concurrency control at scale that Golang is well suited for.
 
-    - name: Just A Design
-      image: 'images/stock-photos/design.png'
-      description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+        Project Components:
+        - Golang **client CLI** that demonstrates end-to-end, configurable, concurrent execution of the API
+        - Golang **backend service** exposing a gRPC API also featuring:
+        - Both In-memory and Postgres persistence options
+        - Integration tests for postgres data access with docker + testcontainers
+        - Documentation for functional tests and the phased implementation specifications
+        - Continuous integration pipeline using Github Actions

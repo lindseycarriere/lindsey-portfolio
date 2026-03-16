@@ -57,14 +57,14 @@ url = "#funfacts"
 weight = 4
 
 [[menu.main]]
-name = "Contact"
-url = "#contact"
+name = "Portfolio"
+url = "#portfolio"
 weight = 5
 
-# [[menu.main]]
-# name = "Portfolio"
-# url = "#portfolio"
-# weight = 6
+[[menu.main]]
+name = "Contact"
+url = "#contact"
+weight = 6
 
 
 ### Default Params ###

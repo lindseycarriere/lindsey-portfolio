@@ -120,17 +120,17 @@
       </div>
       <ul id="og-grid" class="og-grid">
         {{ range .portfolio_list }} {{ $image := resources.Get .image }} {{
-        $big_image := $image.Fill "780x500 jpg" }} {{ $sm_image := $image.Fill
-        "395x250 jpg" }} {{ $parsed_name := replace .name "." "" }}
+        $big_image := $image.Resize "300x jpg q90" }} {{ $sm_image := $image.Resize
+        "200x jpg q90" }} {{ $parsed_name := replace .name "." "" }}
         <li>
-          <p id="description-{{ $parsed_name | urlize }}" class="hidden">
+          <div id="description-{{ $parsed_name | urlize }}" class="hidden">
             {{ .description | markdownify }}
-          </p>
+          </div>
           <a
             href="{{ .url }}"
             data-largesrc="{{ $big_image.RelPermalink }}"
             data-title="{{ .name }}"
-            data-buttontext="SEE SITE"
+            data-buttontext="SEE PROJECT"
           >
             <img
               src="{{ $sm_image.RelPermalink }}"

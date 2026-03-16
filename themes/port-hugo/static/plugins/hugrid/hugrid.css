@@ -121,6 +121,26 @@
 	color: #4d4d4d;
 }
 
+.og-details .og-description > *:last-child {
+	margin-bottom: 0;
+}
+
+.og-details ul,
+.og-details ol {
+	margin: 0 0 1rem 1.25rem;
+	padding-left: 1.25rem;
+}
+
+.og-details li {
+	display: list-item;
+	margin: 0 0 0.35rem;
+	vertical-align: baseline;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	color: #4d4d4d;
+}
+
 .og-loading {
 	width: 20px;
 	height: 20px;

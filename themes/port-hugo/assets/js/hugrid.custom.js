@@ -257,7 +257,7 @@ var Grid = (function () {
   Preview.prototype = {
     create: function () {
       this.$title = $('<h3></h3>');
-      this.$description = $('<p></p>');
+      this.$description = $('<div class="og-description"></div>');
       this.$href = $(
         '<a href="#" class="button" target="_blank" rel="noreferrer">{{ .Site.Params.buttontext }}</a>'
       );
