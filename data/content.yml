@@ -246,3 +246,16 @@ portfolio:
         - Integration tests for postgres data access with docker + testcontainers
         - Documentation for functional tests and the phased implementation specifications
         - Continuous integration pipeline using Github Actions
+
+    - name: This Portfolio Site
+      image: 'images/stock-photos/portfolio-laptop.png'
+      url: https://github.com/lindseycarriere/lindseycarriere.github.io
+      description: |
+        This portfolio website built with Hugo, a Golang based static site generator
+        originally based on the port-hugo theme with various adjustments applied.
+
+        Project Features:
+        - Hugo based static site generator
+        - Supports embedded YAML markdown content
+        - Custom theme with responsive design
+        - Github Pages deployment with Github Actions
